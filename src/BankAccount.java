@@ -17,29 +17,23 @@ public interface BankAccount extends BankAccountKernel {
     void transferTo(BankAccount target, int amount);
 
     /**
-     * Returns the name of the account owner.
+     * Determines whether the given name matches the owner of this account.
      *
-     * @return the owner's name
-     * @ensures owner = this.owner
+     * @param name
+     *            the name to check
+     * @requires name != null
+     * @ensures isOwner = (this.owner.equals(name))
      */
-    String owner();
+    boolean isOwner(String name);
 
     /**
-     * Sets the name of the account owner.
+     * Applies interest to the current balance at the given non-negative rate.
      *
-     * @param owner
-     *            the new owner's name
-     * @requires owner != null
-     * @ensures this.owner = owner
+     * @param rate
+     *            the interest rate as a decimal (e.g., 0.05 for 5%)
+     * @requires rate >= 0.0
+     * @ensures this.balance = #this.balance + (#this.balance * rate)
      */
-    void setOwner(String owner);
+    void applyInterest(double rate);
 
-    /**
-     * Returns a String representation of the BankAccount.
-     *
-     * @return formatted string with owner and balance
-     * @ensures toString = owner + ": $" + balance
-     */
-    @Override
-    String toString();
 }

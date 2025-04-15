@@ -33,4 +33,22 @@ public interface BankAccountKernel extends Standard<BankAccount> {
      */
     int balance();
 
+    /**
+     * Sets the name of the account owner.
+     *
+     * @param owner
+     *            the new owner's name
+     * @requires owner != null
+     * @ensures this.owner = owner
+     */
+    void setOwner(String owner);
+
+    /**
+     * Returns the name of the account owner.
+     *
+     * @return the owner's name
+     * @ensures owner = this.owner
+     */
+    String owner();
+
 }
