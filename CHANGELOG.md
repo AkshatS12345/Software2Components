@@ -24,7 +24,9 @@ the following form: YYYY.0M.0D.
 
 ### Updated
 
-- Changed design to include an abstract class.
+- Changed design to include three secondary methods in the interface and created
+method bodies for all methods in interface.
+- Created Java doc comments for all implemented methods.
 
 ## 2025.04.13
 
@@ -45,3 +47,4 @@ the following form: YYYY.0M.0D.
 ### Updated
 
 - Changed design to include proof the component actually works.
+- Added Java doc comments for all mentioned methods.
