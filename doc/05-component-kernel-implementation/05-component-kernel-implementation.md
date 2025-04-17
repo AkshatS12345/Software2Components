@@ -118,7 +118,8 @@ Below is further rationale/explanation for the rubric items above:
 > discuss how that representation will be restricted (i.e., by convention)
 > and interpreted (i.e., by correspondence).
 
-For the BankAccount component I will be using primatives as my primary data structure as it would make the most sense to implement with my current kernals.
+For the BankAccount component I will be using primatives as my primary data structure as it would make the most sense to implement with my current kernals. For atleast my constructors BankAccount will
+implement ints to represent the number associated with each bankAccount to track just how much money is in each object. Meanwhile a String will be used for the owner of the account that way the name of the person that owns the account is actually stored.
 
 > To start making your kernel implementation, make a branch off of main in your
 > new repo called something like `kernel-implementation`. There are many ways to

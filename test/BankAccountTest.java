@@ -1,4 +1,6 @@
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
@@ -609,6 +611,64 @@ public class BankAccountTest {
 
         assertEquals(b1.owner(), "original");
         assertEquals(b2.owner(), "copy");
+    }
+
+    /**
+     * Tests that toString correctly formats the BankAccount details into a
+     * string.
+     *
+     * @ensures b1.toString() = "BankAccount[Account Number: 12345, Account
+     *          Holder: John Doe, Balance: $0]"
+     */
+    @Test
+    public final void toStringTest() {
+        BankAccount b1 = new BankAccount1L(12345, "John Doe");
+        String expected = "BankAccount[Account Holder: John Doe, Balance: $12345]";
+
+        assertEquals(expected, b1.toString());
+    }
+
+    /**
+     * Tests that two BankAccount objects with the same balance and owner are
+     * considered equal.
+     *
+     * @ensures b1.equals(b2) = true if b1.balance() == b2.balance() and
+     *          b1.owner() == b2.owner()
+     */
+    @Test
+    public final void equalsTestEqualAccounts() {
+        BankAccount b1 = new BankAccount1L(200, "John Doe");
+        BankAccount b2 = new BankAccount1L(200, "John Doe");
+
+        assertTrue(b1.equals(b2)); // b1 and b2 should be equal
+    }
+
+    /**
+     * Tests that two BankAccount objects with different balances but the same
+     * owner are not considered equal.
+     *
+     * @ensures b1.equals(b2) = false if b1.balance() != b2.balance()
+     */
+    @Test
+    public final void equalsTestDifferentBalances() {
+        BankAccount b1 = new BankAccount1L(200, "John Doe");
+        BankAccount b2 = new BankAccount1L(300, "John Doe");
+
+        assertFalse(b1.equals(b2));
+    }
+
+    /**
+     * Tests that two BankAccount objects with the same balance but different
+     * owners are not considered equal.
+     *
+     * @ensures b1.equals(b2) = false if b1.owner() != b2.owner()
+     */
+    @Test
+    public final void equalsTestDifferentOwners() {
+        BankAccount b1 = new BankAccount1L(200, "John Doe");
+        BankAccount b2 = new BankAccount1L(200, "Jane Doe");
+
+        assertFalse(b1.equals(b2));
     }
 
 }
