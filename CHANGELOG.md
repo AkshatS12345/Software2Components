@@ -6,7 +6,21 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Calendar Versioning](https://calver.org/) of
 the following form: YYYY.0M.0D.
 
-## YYYY.MM.DD
+## 2025.04.16
+
+### Added
+
+- Designed test suite for BankAccount component
+- Designed two different use cases for BankAccount component
+
+### Updated
+
+- Changed design to include all test cases for Standard, secondary, and kernal methods
+- Each test was made by testing if all three constructors worked well with the methods by outputting the correct value.
+- Created demo classes to show user how BankAccount Component can be used.
+- Add comments to each of the test cases to show reader what each Junit test primarly testds.
+
+## 2025.04.15
 
 ### Added
 
@@ -15,6 +29,8 @@ the following form: YYYY.0M.0D.
 ### Updated
 
 - Changed design to include kernal methods for bank account.
+- Added comments to the kernal implementations.
+- Included implementation for Standard methods transferFrom, newInstance, and clear.
 
 ## 2025.04.14
 
@@ -37,6 +53,8 @@ method bodies for all methods in interface.
 ### Updated
 
 - Changed design to include all the interfaces that are required.
+- Added comments with ensure class as well as the proper Java doc for increased readability.
+- Made sure to extend the Kernal to standard and enhanced to Kernal to ensure proper inheritance.
 
 # 2025.04.12
 
