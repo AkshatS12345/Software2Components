@@ -1,5 +1,7 @@
 /**
  * BankAccount interface with additional methods beyond BankAccountKernel.
+ *
+ * @author Akshat Shah
  */
 public interface BankAccount extends BankAccountKernel {
 
