@@ -1,8 +1,8 @@
 # Portfolio Part 6: Finishing Touches
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) and delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) and delete this comment -->
-- **Due Date**: <!-- TODO: fill out with due date and time (e.g., 10/17 @ 3:10 PM EST) and delete this comment -->
+- **Name**: Akshat Shah
+- **Dot Number**: shah.2097
+- **Due Date**: 4/15/2025
 
 ## Assignment Overview
 
@@ -49,8 +49,6 @@ Many of these additional techniques are somewhat out of the scope of this
 course, but just knowing about them could set you up for long term success.
 
 ## Assignment Checklist
-
-<!-- TODO: browse the checklist then delete this comment -->
 
 To be sure you have completed everything on this assignment, we have littered
 this document with TODO comments. You can browse all of them in VSCode by
@@ -307,18 +305,19 @@ Take some time to fill them out honestly.
 > complete the portfolio project, how much better (or worse) do you think you
 > understand software development and why?
 
-<!-- TODO: discuss -->
+I think I understand it way better now, the way everything fits was proply shown to me
+when I was completing this project.
 
 > Also, did the portfolio project surface any gaps in your own knowledge of
 > software development. If so, what are those gaps and how did you address them?
 
-<!-- TODO: discuss -->
+Yes I was so confused as to the overall purpose of the abstract class, at first I thought it was just something software engineers wanted others to do as sort of a formality. But now I understand that the purpose is to provide implementations for your secondary methods interface assuming that your kernal implementations work.
 
 > Finally, as a part of completing the portfolio project, to what extent has
 > your perspective of software development changed, if at all? In other words,
 > is software development something you still enjoy? If not, why not?
 
-<!-- TODO: discuss -->
+Yes I now realize just how important documenting is in software. Whether you had to write changes into the ChangeLog or define what you have changed when push your code into github and keeping track which branches your code falls under.
 
 > One of the challenges of completing the portfolio project is picking up a lot
 > of skills on your own. Some of these skills are, of course, software skills.
@@ -326,25 +325,31 @@ Take some time to fill them out honestly.
 > this process. Therefore, the first question is what skills did you pick up
 > through this process?
 
-<!-- TODO: discuss -->
+One of the biggest things I picked up while working on the BankAccount project was how to actually use GitHub the right way. Before this, I barely knew anything about version control, but as I kept building the project, I taught myself how to make branches to test new stuff without breaking everything. I got more comfortable committing changes, pushing them, and merging back into main when things were working. It felt a little overwhelming at first, but once it clicked, it made the whole development process way smoother. It also taught me to be more organized with my code and to think ahead, especially when naming branches or writing commit messages. Overall, it made me feel more like an actual developer, not just someone writing code.
 
 > The follow-up question is: could you rephrase these skills you picked up
 > as bullet points that you could put on a resume? Try it below.
 
-<!-- TODO: discuss -->
+Learned to create and manage branches for feature development and testing
+
+Practiced writing clear and meaningful commit messages to track code changes
+
+Performed merges and resolved minor conflicts when pushing updates to the main branch
+
+Improved code readability to help clients understand the full version of the code.
 
 > Next, how has working on this project affected your career trajectory?
 > In other words, do you now hate the topic you picked? Or, are you even more
 > interested in it? Both outcomes are valuable to your personal development.
 
-<!-- TODO: discuss -->
+It was interesting as I was not sure if my project would work and I didn't know how everything would connect. But when I was able to write the test cases and the two implementing method that was very impactful and it helped a lot being able to see where everything fits.
 
 > Finally, consider the skills you've picked up and your current career
 > trajectory. What are some things you could do to continue on your
 > career trajectory? Also, who are some mentors you could contact to help
 > you stay on your path?
 
-<!-- TODO: discuss -->
+I could continue to learn more skills maybe through coding more, doing more problems like leetcode, maybe build my own projects, and network with people in my industry. Some mentors I have is Jeremy (my SW2 professor), Steve Gomori (my Sw1 professor), and my dad.
 
 ### Changelog
 

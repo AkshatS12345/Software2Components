@@ -1,7 +1,8 @@
 import components.standard.Standard;
 
 /**
- * Kernel interface for a BankAccount component.
+ * Kernel interface for a BankAccount component. Holds all the Kernal methods
+ * interfaces, describes how each Kernal method will be used.
  */
 public interface BankAccountKernel extends Standard<BankAccount> {
 
@@ -32,5 +33,23 @@ public interface BankAccountKernel extends Standard<BankAccount> {
      * @ensures balance = this.balance
      */
     int balance();
+
+    /**
+     * Returns the name of the account owner.
+     *
+     * @return the owner's name
+     * @ensures owner = this.owner
+     */
+    String owner();
+
+    /**
+     * Sets the name of the account owner.
+     *
+     * @param owner
+     *            the new owner's name
+     * @requires owner != null
+     * @ensures this.owner = owner
+     */
+    void setOwner(String owner);
 
 }
