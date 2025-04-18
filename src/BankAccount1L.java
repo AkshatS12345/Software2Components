@@ -1,3 +1,11 @@
+/**
+ * Layered implementation of BankAccountKernel with direct state representation.
+ *
+ * Convention: this.accountNumber is a non-empty String containing only digits.
+ * this.balance is always >= 0.
+ *
+ * Correspondence: this = (accountNumber, balance)
+ */
 public class BankAccount1L extends BankAccountSecondary {
 
     /**

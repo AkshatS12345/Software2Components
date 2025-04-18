@@ -1,5 +1,10 @@
 /**
- * Enhanced interface for a BankAccount component.
+ * BankAccount interface with additional methods beyond BankAccountKernel.
+ *
+ * Convention: The balance is always non-negative. The account number is a
+ * non-empty String with only digits.
+ *
+ * Correspondence: this = (accountNumber, balance)
  */
 public interface BankAccount extends BankAccountKernel {
 

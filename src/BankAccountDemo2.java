@@ -1,4 +1,13 @@
+/**
+ * Demo class to test additional BankAccount functionality.
+ *
+ */
 public class BankAccountDemo2 {
+    /**
+     * This demo performs a specific scenario to validate account behavior.
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         // Create a bank account with an initial balance
         BankAccount1L joeyBankAccount = new BankAccount1L(1000, "Joey");

@@ -1,9 +1,23 @@
 import components.sequence.Sequence;
 import components.sequence.Sequence1L;
 
+/**
+ * Proof-of-concept class for demonstrating BankAccount functionality.
+ *
+ * This class runs example scenarios to validate the behavior of the BankAccount
+ * implementation, such as deposits, withdrawals, interest application, and
+ * transfers.
+ */
 public final class BankAccountProofOfConcept {
 
+    /*
+     * Variable balance used to test implementation of proof of concept.
+     */
     private int balance;
+
+    /**
+     * Variable transactions used to test implementation of proof of concept.
+     */
     private Sequence<String> transactions;
 
     /**

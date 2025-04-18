@@ -2,6 +2,11 @@ import components.standard.Standard;
 
 /**
  * Kernel interface for a BankAccount component.
+ *
+ * Convention: The balance is always non-negative. The account number is a
+ * non-empty String containing only digits.
+ *
+ * Correspondence: this = (accountNumber, balance)
  */
 public interface BankAccountKernel extends Standard<BankAccount> {
 
