@@ -1,5 +1,6 @@
 /**
- * Demo class to test additional BankAccount functionality.
+ * Demo class to test additional BankAccount functionality. Tests how much
+ * interest the person would pay.
  *
  */
 public class BankAccountDemo2 {

@@ -1,5 +1,6 @@
 /**
- * Demo class to illustrate basic usage of BankAccount.
+ * Demo class to illustrate basic usage of BankAccount. Shows two people
+ * transacting cash and who owns which account.
  *
  */
 public class BankAccountDemo1 {

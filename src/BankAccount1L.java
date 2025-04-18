@@ -1,10 +1,13 @@
 /**
  * Layered implementation of BankAccountKernel with direct state representation.
+ * The data structure present is that BankAccount is represented as an integer
+ * and a string, corresoponding with the value in BankAccount and the name
+ * associated with the account.
  *
- * Convention: this.accountNumber is a non-empty String containing only digits.
- * this.balance is always >= 0.
+ * @Convention: this.accountNumber is a non-empty String containing only digits.
+ *              this.balance is always >= 0.
  *
- * Correspondence: this = (accountNumber, balance)
+ * @Correspondence: this = (accountNumber, balance)
  */
 public class BankAccount1L extends BankAccountSecondary {
 
